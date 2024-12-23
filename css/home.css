@@ -1,0 +1,41 @@
+
+h1 {
+    color : #fff;
+}
+
+p {
+    margin-top: 30px;
+    color : #fff;
+    font-size: 4rem;
+}
+
+.pages {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 70vh;
+    width: 100%;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+a {
+    padding: 10px;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    font-size: 3rem;
+    transition: 0.25s;
+}
+
+
+button:hover {
+    background: #fff;
+    color: #000;
+    scale: 1.10;
+}
