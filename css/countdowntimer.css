@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-button {
+  position: absolute; /* Định vị nút theo vị trí tuyệt đối */
+  top: 20px; /* Cách phía trên 20px */
+  left: 20px; /* Cách phía trái 20px */
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #ffa212;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #000; /* Màu nền khi hover */
+  color: #ffa212;
+}
+
+.time-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#time-display {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 5rem;
+}
+
+.controls {
+  display: flex;
+  width: 60%;
+  max-width: 620px;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.controls button {
+  padding: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  height: 100px;
+  width: 300px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background: #ccc;
+}

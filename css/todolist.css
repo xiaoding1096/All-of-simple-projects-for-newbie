@@ -11,6 +11,28 @@ body {
     color: #ffffff;
   }
   
+  .home-button {
+    position: absolute; /* Định vị nút theo vị trí tuyệt đối */
+    top: 20px; /* Cách phía trên 20px */
+    left: 20px; /* Cách phía trái 20px */
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ffa212;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: #000; /* Màu nền khi hover */
+    color: #ffa212;
+  }
+
   h1 {
     font-size: 5rem;
     margin-bottom: 20px;

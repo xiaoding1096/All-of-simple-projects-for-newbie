@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/countdowntimer.css" />
+  </head>
+  <body>
+    <a href="index.html" class="home-button">Home</a>
+
+    <div class="container">
+      <h1>Countdown Timer</h1>
+      <div class="time-wrapper">
+        <svg width="500" height="500">
+          <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: #ffec7e; stop-opacity: 1" />
+            <stop offset="100%" style="stop-color: #fc5b25; stop-opacity: 1" />
+          </linearGradient>
+          <circle cx="250" cy="250" r="230"></circle>
+          <circle cx="250" cy="250" r="230" id="progress-circle"></circle>
+        </svg>
+        <div class="time" id="time-display">00 : 00</div>
+      </div>
+      <div class="controls">
+        <button id="start-pause-btn">Start</button>
+        <button id="settime-btn">Set Timer</button>
+      </div>
+    </div>
+
+    <script src="./js/components/countdowntimer.js
+    "></script>
+  </body>
+</html>
