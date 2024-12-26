@@ -14,7 +14,6 @@ settimeBtn.addEventListener("click", () => {
     alert("Give me a real number!");
     return;
   }
-
   console.log(`Time: ${time}`);
   updateTime(time);
   isPause = true;
@@ -51,27 +50,5 @@ startPauseBtn.addEventListener("click", () => {
     isPause = true;
     clearInterval(countdown);
     console.log("Countdown Paused");
-  }
-});
-
-startPauseBtn.addEventListener("click", () => {
-  if (isPause) {
-    startPauseBtn.textContent = "Pause";
-    isPause = false;
-    countdown = setInterval(() => {
-      time--;
-      updateTime(time);
-      if (time <= 0) {
-        clearInterval(countdown);
-        time = 0;
-        isPause = true;
-        timeDisplay.textContent = "00 : 00";
-        startPauseBtn.textContent = "start";
-      }
-    });
-  } else {
-    startPauseBtn.textContent = "Resume";
-    isPause = true;
-    clearInterval(countdown);
   }
 });
