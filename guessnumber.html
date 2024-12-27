@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess A Number</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/guessanumber.css" />
+  </head>
+  <body>
+    <a href="index.html" class="home-button">Home</a>
+    <h1>Guess A Number</h1>
+    <div class="guess-wrapper">
+      <p id="guess-title">Choose a number from 1 to 100</p>
+      <div id="guess-box">
+        <input type="text" id="user-guess-input" />
+        <button id="guess-btn">Guess</button>
+      </div>
+    </div>
+    <div id="announce">
+      <p id="announce-remaining-times">You have 5 times to try !</p>
+      <button id="retry-btn">Retry</button>
+    </div>
+
+    <script src="./js/components/guessanumber.js"></script>
+  </body>
+</html>

@@ -23,12 +23,13 @@ body {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: 0.25s;
 }
 
 .home-button:hover {
   background-color: #000; /* Màu nền khi hover */
   color: #ffa212;
+  scale: 1.3;
 }
 
 h1 {
