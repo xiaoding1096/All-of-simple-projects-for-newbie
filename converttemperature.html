@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convert Temperature</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/converttemperature.css" />
+  </head>
+  <body>
+    <a href="index.html" class="home-button">Home</a>
+    <h1>Convert Temperature</h1>
+    <div class="converttemperature-wrap">
+      <p class="convert-title">Convert Celsius to Fahrenheit</p>
+      <div id="convert-box">
+        <div class="get-value-box">
+          <input type="text" id="temperature-input" autocomplete="off" />
+          <select name="" id="type-of-temperature">
+            <option value="celsius">C</option>
+            <option value="fahrenheit">F</option>
+          </select>
+        </div>
+        <button id="convert-btn">Convert</button>
+      </div>
+    </div>
+    <div class="temperature-display-box">
+      <span id="temperature-display"></span>
+    </div>
+    <script src="./js/components/converttemperature.js"></script>
+  </body>
+</html>
